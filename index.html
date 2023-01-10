@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nemium</title>
 </head>
 <body>
     <header>
         <nav>
-            <p>Setup</p>
+        <details id="setup" open>
+            <summary>
+                Setup
+            </summary>
             <ol>
                 <li> <a href="#google-chrome">  Google Chrome</a></li>
                 <li> <a href="#vsc"> Visual Studio Code</a></li>
@@ -17,15 +20,20 @@
                 <li> <a href="#github">Github</a>
                 </li>
             </ol>
-            <p>Concentos esenciales del desarrollo web </p>
+        </details>
+        <details id="conceptos">
+            <summary>
+                Conceptos esenciales del desarrollo web
+            </summary>
             <ol>
-               <li> <a href="#html">Qué es HTML</a></li>
-               <li> <a href="#etiquetas">Etiquetas</a></li>
-               <li> <a href="#dom">DOM</a> </li>
-               <li> <a href="#semantica">Semántica</a> </li>
-               <li> <a href="#atributos">Atributos</a></li>
-               <li> <a href="#css">Qué es CSS</a> </li>     
-            </ol>
+                <li> <a href="#html">Qué es HTML</a></li>
+                <li> <a href="#etiquetas">Etiquetas</a></li>
+                <li> <a href="#dom">DOM</a> </li>
+                <li> <a href="#semantica">Semántica</a> </li>
+                <li> <a href="#atributos">Atributos</a></li>
+                <li> <a href="#css">Qué es CSS</a> </li>     
+             </ol>
+        </details>    
         </nav>
     </header>
     <h1>Curso esencial de HTML y CSS</h1>
@@ -92,6 +100,6 @@
     <img src="./images/modelo-caja.png" alt="modelo de caja">
     <p>Si tienes alguna pregunta escríbeme a <a href="mailto:me@leonidasesteban.com">me@leonidasesteban.com</a></p>
     <h3>Suscríbete a nuestro newsletter</h3>
-   
+   <script src="/js/index.js"></script>
 </body>
 </html>
