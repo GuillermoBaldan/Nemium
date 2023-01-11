@@ -17,5 +17,3 @@ function handleNavConceptos(){
         $navsetup.open = false;
     }
 }
-
-console.log("Hola js")
