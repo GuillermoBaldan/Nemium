@@ -1,14 +1,22 @@
+:root {
+    font-size: 18px;
+    --gray30: #212121;
+    --gray20: #212429;
+    --gray10: #616161;
+
+}
+
 html {
     font-size: 16px;
 }
 
 body {
-    color: #212121;
+    color: var(--gray30);
     font-size: 10px;
 }
 
 a {
-    color: #212121;
+    color: var(--gray30);
 }
 
 li {
@@ -18,17 +26,17 @@ li {
 header{
     font-size: 3rem;
     /* background-color: red; */
-    color: #616161;
+    color: var(--gray10);
     width: 800px;
 }
 
 header a {
-    color: #616161;
+    color: var(--gray10);
     text-decoration: none;
 }
 
 header a:hover{
-color: #212121;
+    color: var(--gray10);
 }
 
 nav details summary {
