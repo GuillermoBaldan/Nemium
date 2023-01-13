@@ -4,16 +4,41 @@ html {
 
 body {
     color: #212121;
-    font-size: 60px;
+    font-size: 10px;
 }
 
 a {
     color: #212121;
 }
 
-header{
-    font-size: 14px;
+li {
+    font-size: 3rem;
 }
+
+header{
+    font-size: 3rem;
+    /* background-color: red; */
+    color: #616161;
+    width: 800px;
+}
+
+header a {
+    color: #616161;
+    text-decoration: none;
+}
+
+header a:hover{
+color: #212121;
+}
+
+nav details summary {
+    font-weight: bold
+}
+
+ol li{
+    border: 1px solid red;
+}
+
 
 h1 {
     font-size: 60px;
