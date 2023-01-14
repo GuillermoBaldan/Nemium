@@ -90,6 +90,22 @@ h3 {
     font-size:  1.5em;
 }
 
+h3::before {
+    content: '-';
+  }
+  
+  h3::after {
+    content: '';
+    width: 32px;
+    height: 4px;
+    background: var(--gray30);
+    display: inline-block;
+  }
+  
+  /* ::selection {
+    background: green;
+  } */
+
 pre {
     background: #FEC62E;
 
