@@ -101,12 +101,25 @@
   
   pre {
     background: #FEC62E;
+    padding: 40px;
+    font-family: 'Roboto';
+    line-height: 24px;
   }
   
   blockquote {
+    font-size: 24px;
     margin: 32px 0;
+    padding-left: 16px;
   }
   
+    blockquote span {
+        color: var(--gray10);
+    }
+
+    blockquote span::before{
+        content: '-'
+    }
+
   .hero {
     background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent), url('../images/pattern.png');
     /* background-repeat: no-repeat; */
@@ -141,10 +154,11 @@
   
   .section-content h3 {
     counter-increment: titleList;
+    padding-bottom: 4px;
   }
   
   .section-content h3::before {
-    content: counter(titleList, decimal);
+    content: counter(titleList, decimal) '. ';
   }
   
   .section-content h3::after {
